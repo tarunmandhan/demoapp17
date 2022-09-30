@@ -4,7 +4,7 @@ const App = () => {
   const state = useState();
   console.log(state);
 
-  const [count, setCount] = useState(0);
+  let [count, setCount] = useState(0);
 
   const IncNum = () => {
     setCount(count + 1);
